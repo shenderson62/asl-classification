@@ -1,11 +1,12 @@
 # Classifying Images: American Sign Language
 
-## Dataset
+## Dataset <a href="https://www.kaggle.com/datasets/grassknoted/asl-alphabet" ><img src="https://img.shields.io/badge/dataset-kaggle-green" /></a>
 
-<a href="https://www.kaggle.com/datasets/grassknoted/asl-alphabet" >
-        <img src="https://img.shields.io/badge/dataset-kaggle-green" /></a>
 
-The dataset contains 87,000 images of size 200x200 pixels. The data is labeled using 29 clases, 26 of which represent English letters, in addition to "SPACE", "DELETE", and "NOTHING".
+
+For this project, I  have pulled data from a Kaggle Dataset containing 87,000 images of size 200x200 pixels. These images are already categorized into 29 classes, with 26 classes representing English letters, and 3 classes representing images that do not contain American Sign Language symbols, such as “space”, “delete”, and images with no hand present.
+
+In order to add noise to the dataset and to limit a model's tendency to overfit, I initalized a data pipeline using the Python Augmentor Pipeline. Within this pipeline are two operations applied with 30% probability: zoom and random brightness. I did not apply operations like reflections or rotations, as these operations could potentially impact the symbol being represented within the image
 
 ## 100,000 Sampled Images using Adam Optimizer and .005 Learning Rate (10 epochs)
 
