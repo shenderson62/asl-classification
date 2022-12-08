@@ -11,7 +11,9 @@ In order to add noise to the dataset and to limit a model's tendency to overfit,
 ## 100,000 Sampled Images using Adam Optimizer and .005 Learning Rate (10 epochs)
 
 <img src="https://user-images.githubusercontent.com/91431295/206310841-90671c2a-58ba-411f-9c8e-a2052988d717.png" width="500" height="500">
-<img src="https://user-images.githubusercontent.com/91431295/206311194-2887f017-efdc-4887-8e35-fb83a0fbe5a0.png" width="500" height="300">                                                                                                                                      
+<img src="https://user-images.githubusercontent.com/91431295/206311194-2887f017-efdc-4887-8e35-fb83a0fbe5a0.png" width="500" height="300">    
+
+
 ## 100,000 Sampled Images using Adam Optimizer and .005 Learning Rate with Dropout (3 epochs)     
 
 <img src="https://user-images.githubusercontent.com/91431295/206311476-e8bea001-833b-4b9e-96b4-13de4a709c88.png" width="500" height="500">
